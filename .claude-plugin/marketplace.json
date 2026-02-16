@@ -1,0 +1,167 @@
+{
+  "$schema": "https://claude.ai/schemas/plugin/v1.json",
+  "name": "marcake",
+  "displayName": "MarCake",
+  "version": "1.0.0",
+  "description": "Marketing Skills for AI Agents - 25 comprehensive marketing skill modules for conversion optimization, content, SEO, analytics, and growth.",
+  "author": {
+    "name": "MarCake",
+    "url": "https://github.com/your-org/marcake"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/marcake"
+  },
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "conversion",
+    "seo",
+    "copywriting",
+    "analytics",
+    "growth",
+    "saas",
+    "ai-skills"
+  ],
+  "categories": [
+    "marketing",
+    "business",
+    "productivity"
+  ],
+  "skills": [
+    {
+      "name": "ab-test-setup",
+      "path": "skills/ab-test-setup/SKILL.md",
+      "description": "Design experiments and A/B tests with proper hypothesis and methodology"
+    },
+    {
+      "name": "analytics-tracking",
+      "path": "skills/analytics-tracking/SKILL.md",
+      "description": "Set up event tracking and analytics implementation"
+    },
+    {
+      "name": "competitor-alternatives",
+      "path": "skills/competitor-alternatives/SKILL.md",
+      "description": "Create comparison and alternative pages for competitive SEO"
+    },
+    {
+      "name": "content-strategy",
+      "path": "skills/content-strategy/SKILL.md",
+      "description": "Plan content marketing strategy and calendars"
+    },
+    {
+      "name": "copy-editing",
+      "path": "skills/copy-editing/SKILL.md",
+      "description": "Edit and improve existing marketing copy for clarity and conversion"
+    },
+    {
+      "name": "copywriting",
+      "path": "skills/copywriting/SKILL.md",
+      "description": "Write compelling marketing copy for landing pages, ads, and campaigns"
+    },
+    {
+      "name": "email-sequence",
+      "path": "skills/email-sequence/SKILL.md",
+      "description": "Design automated email flows for onboarding, nurturing, and conversion"
+    },
+    {
+      "name": "form-cro",
+      "path": "skills/form-cro/SKILL.md",
+      "description": "Optimize lead capture forms and form UX for higher completion rates"
+    },
+    {
+      "name": "free-tool-strategy",
+      "path": "skills/free-tool-strategy/SKILL.md",
+      "description": "Design free marketing tools and calculators for lead generation"
+    },
+    {
+      "name": "launch-strategy",
+      "path": "skills/launch-strategy/SKILL.md",
+      "description": "Plan and execute product and feature launches"
+    },
+    {
+      "name": "marketing-ideas",
+      "path": "skills/marketing-ideas/SKILL.md",
+      "description": "Generate creative marketing ideas and campaign concepts"
+    },
+    {
+      "name": "marketing-psychology",
+      "path": "skills/marketing-psychology/SKILL.md",
+      "description": "Apply behavioral science and psychology to marketing"
+    },
+    {
+      "name": "onboarding-cro",
+      "path": "skills/onboarding-cro/SKILL.md",
+      "description": "Optimize user onboarding for activation and engagement"
+    },
+    {
+      "name": "page-cro",
+      "path": "skills/page-cro/SKILL.md",
+      "description": "Optimize landing pages for higher conversion rates"
+    },
+    {
+      "name": "paid-ads",
+      "path": "skills/paid-ads/SKILL.md",
+      "description": "Plan and optimize paid advertising campaigns"
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "path": "skills/paywall-upgrade-cro/SKILL.md",
+      "description": "Optimize in-app upgrade moments, paywalls, and free-to-paid conversion"
+    },
+    {
+      "name": "popup-cro",
+      "path": "skills/popup-cro/SKILL.md",
+      "description": "Optimize popups, modals, and overlays for conversions without hurting UX"
+    },
+    {
+      "name": "pricing-strategy",
+      "path": "skills/pricing-strategy/SKILL.md",
+      "description": "Design pricing structures and packaging strategies"
+    },
+    {
+      "name": "product-marketing-context",
+      "path": "skills/product-marketing-context/SKILL.md",
+      "description": "Establish foundational product and marketing context"
+    },
+    {
+      "name": "programmatic-seo",
+      "path": "skills/programmatic-seo/SKILL.md",
+      "description": "Design scalable page generation strategies for search traffic"
+    },
+    {
+      "name": "referral-program",
+      "path": "skills/referral-program/SKILL.md",
+      "description": "Design referral and affiliate programs for growth"
+    },
+    {
+      "name": "schema-markup",
+      "path": "skills/schema-markup/SKILL.md",
+      "description": "Implement structured data for rich search results"
+    },
+    {
+      "name": "seo-audit",
+      "path": "skills/seo-audit/SKILL.md",
+      "description": "Conduct technical and on-page SEO audits to improve search rankings"
+    },
+    {
+      "name": "signup-flow-cro",
+      "path": "skills/signup-flow-cro/SKILL.md",
+      "description": "Optimize registration and signup flows for higher completion rates"
+    },
+    {
+      "name": "social-content",
+      "path": "skills/social-content/SKILL.md",
+      "description": "Create engaging social media content for brand building and engagement"
+    }
+  ],
+  "tools": {
+    "registry": "tools/REGISTRY.md",
+    "integrations": "tools/integrations/"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "agents": "AGENTS.md",
+    "contributing": "CONTRIBUTING.md"
+  }
+}
