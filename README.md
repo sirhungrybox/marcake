@@ -11,7 +11,7 @@ AI agents are powerful, but generic. MarCake gives them specialized marketing ex
 - **Structured Frameworks** - Battle-tested methodologies for each marketing discipline
 - **Contextual Awareness** - Skills that check for existing context before generating outputs
 - **Actionable Outputs** - Specific deliverables, not vague recommendations
-- **Tool Integration** - 33 marketing tool guides for seamless workflows
+- **Tool Integration** - 29 marketing tool guides for seamless workflows
 
 ## Skills Library
 
@@ -77,22 +77,43 @@ AI agents are powerful, but generic. MarCake gives them specialized marketing ex
 
 ## Installation
 
-### Method 1: Claude Code Plugin (Recommended)
+### Method 1: npx (Recommended)
 
 ```bash
-claude plugin add marcake
+# Initialize MarCake in your project
+npx marcake init
+
+# Browse available skills
+npx marcake list
+
+# View a specific skill
+npx marcake skill page-cro
 ```
 
-### Method 2: npx (One-time use)
+This copies MarCake to a `.marcake/` directory in your project.
+
+### Method 2: npm Install
 
 ```bash
-npx marcake@latest
+npm install marcake
+```
+
+Then use programmatically:
+
+```javascript
+const marcake = require('marcake');
+
+// Get all skills
+const skills = marcake.getSkills();
+
+// Get specific skill content
+const pageCro = marcake.getSkill('page-cro');
 ```
 
 ### Method 3: Git Submodule
 
 ```bash
-git submodule add https://github.com/your-org/marcake.git .marcake
+git submodule add https://github.com/sirhungrybox/marcake.git .marcake
 ```
 
 Then reference skills in your project's CLAUDE.md:
@@ -105,7 +126,7 @@ Import marketing expertise from `.marcake/skills/`
 ### Method 4: Direct Clone
 
 ```bash
-git clone https://github.com/your-org/marcake.git
+git clone https://github.com/sirhungrybox/marcake.git
 ```
 
 ## Usage

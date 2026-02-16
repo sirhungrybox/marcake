@@ -1,0 +1,42 @@
+{
+  "name": "marcake",
+  "version": "1.0.0",
+  "description": "Marketing Skills for AI Agents - 25 skill modules for conversion optimization, content, SEO, analytics, and growth",
+  "main": "index.js",
+  "bin": {
+    "marcake": "./bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirhungrybox/marcake.git"
+  },
+  "keywords": [
+    "marketing",
+    "ai",
+    "skills",
+    "conversion",
+    "seo",
+    "copywriting",
+    "analytics",
+    "claude",
+    "ai-agents"
+  ],
+  "author": "EKRAM Z.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sirhungrybox/marcake/issues"
+  },
+  "homepage": "https://github.com/sirhungrybox/marcake#readme",
+  "files": [
+    "skills/",
+    "tools/",
+    ".claude-plugin/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "README.md",
+    "bin/"
+  ]
+}
